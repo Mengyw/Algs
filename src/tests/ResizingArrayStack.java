@@ -74,19 +74,19 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
      * @return the number of items in the stack
      */
     public int size() {
-        return n;
+    	return n;
     }
 
 
     // resize the underlying array holding the elements
-    private void resize(int capacity) {
+    	private void resize(int capacity) {
         assert capacity >= n;
         Item[] temp = (Item[]) new Object[capacity];
         for (int i = 0; i < n; i++) {
             temp[i] = a[i];
         }
         a = temp;
-    }
+      }
 
     /**
      * Adds the item to this stack.
