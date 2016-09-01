@@ -1,4 +1,4 @@
-package tests;
+package algs.codingExercise;
 
 import java.util.Iterator;
 

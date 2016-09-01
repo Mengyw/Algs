@@ -1,4 +1,4 @@
-package tests;
+package algs.codingExercise;
 
 public class Stack<Item> {
 	private Node first;
